@@ -1,0 +1,5 @@
+
+1-apresentação PHP-FIG
+-introdução - padrões e práticas possíveis de mercado 
+-PSRs =PHP standart recomendation
+-atual usada PSR-4 
