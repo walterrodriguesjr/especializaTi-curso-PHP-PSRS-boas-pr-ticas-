@@ -3,3 +3,56 @@
 -introdução - padrões e práticas possíveis de mercado 
 -PSRs =PHP standart recomendation
 -atual usada PSR-4 
+
+
+2-PHP PSR-1 
+-arquivos php precisam da tag: 
+    <?php
+
+-sempre usar a codificação com UTF-8 
+
+-separar as responsabilidades dos arquivos, que tenham somente um tipo cada (classes, functions, 
+    constants, etc...) importante cada arquivo não fazer várias coisas ao mesmo tempo 
+
+-classes, Traits e Interfaces, dever sempre seguir o padrão camelCase, porém, iniciando com 
+    maiúsculo. ex: NomeClasse, homeController. Cada classe em um único arquivo. 
+
+-constantes sempre devem ter todos os caracteres em maiúsculo.
+    ex: const NASCIMENTO 
+
+-nome de método sempre deve seguir o padrão camelCase, iniciando com minuscula. 
+    ex: function nomeMetodo() {}
+
+-nomes de variáveis, é recomendado sempre usar também o padrão camelCase 
+
+
+3-PHP PSR-2 
+-define um estilo de codificação 
+
+-abaixo da tag '<?php' deve-se deixar uma linha em branco 
+
+-se não estiver trabalhando com HTML no arquivo PHP, não precisa fechar com a tag '?>'
+
+-TAB sempre programado para pular 4 espaços
+
+-recomendado no máximo 120 caracteres por linha
+
+-sempre separar tipos de dados com quebra de linha deixando 1 linha em branco
+
+-sempre definir a visibilidade de atributos (public, private, protected)
+
+-não é recomendado usar o var, somente o let ou o const 
+
+-sempre definir a visibilidade em métodos 
+
+-espaçamento entre atributos de métodos 
+
+-o static sempre depois da visibilidade 
+
+-o abstract sempre antes da visibilidade 
+
+-espaçamento quando usar o if e else entre os parametros ou chaves 
+
+
+
+
