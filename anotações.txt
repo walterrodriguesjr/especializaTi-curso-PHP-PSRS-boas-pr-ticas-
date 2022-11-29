@@ -54,5 +54,11 @@
 -espaçamento quando usar o if e else entre os parametros ou chaves 
 
 
+4-PHP PSR-3 
+-define padrões para interface de Logger
+
+-recomendado sempre usar uma biblioteca pronta de LOG, 'monolog' no packginst 
+
+-
 
 
