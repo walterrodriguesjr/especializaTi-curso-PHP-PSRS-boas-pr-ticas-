@@ -60,5 +60,11 @@
 -recomendado sempre usar uma biblioteca pronta de LOG, 'monolog' no packginst 
 
 
+5-PHP PSR-4 
+-a PSR mais importante do PHP 
+-Autoloader, define padrões de autoload de arquivo de classes 
+-
+
+
 
 
